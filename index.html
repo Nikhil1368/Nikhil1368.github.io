@@ -10,10 +10,6 @@
     <!-- Box Icons -->
     <link rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-  <link
-  rel="stylesheet"
-  href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
-/>
  
 </head>
 <body>
@@ -180,18 +176,27 @@
     </section>
      <!---github------->
      <section>
-        <div class="heading" style="padding-bottom: 10px ;">
-        <h2>Github</h2>
-        <span>My Github Table</span>
-        </div>
         <script
-         src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
-        ></script>
-     <!-- Prepare a container for your calendar. -->
-     <div class="calendar">
-       <!-- Loading stuff -->
-    Loading the data just for you.
+        src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
+      ></script>
+      
+      <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+      <link
+         rel="stylesheet"
+         href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+      />
+      
+      <!-- Prepare a container for your calendar. -->
+      <div class="calendar">
+          <!-- Loading stuff -->
+          Loading the data just for you.
       </div>
+      
+      <script>
+          GitHubCalendar(".calendar", "Nikhil1368");
+          // or enable responsive functionality
+          GitHubCalendar(".calendar", "Nikhil1368", { responsive: true });
+        </script>
     </section>
     <!-- Contact -->
     <section class="contact" id="contact">

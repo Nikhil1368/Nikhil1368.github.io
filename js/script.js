@@ -27,6 +27,3 @@ let header = document.querySelector('header');
         }
     }
 
-    GitHubCalendar(".calendar", "Nikhil1368");
-    // or enable responsive functionality
-    GitHubCalendar(".calendar", "Nikhil1368", { responsive: true });

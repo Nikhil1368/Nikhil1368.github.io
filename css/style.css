@@ -378,6 +378,22 @@ form textarea {
 .copyright a{
   color: #22cf91;
 }
+.stats
+{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 1%;
+  width: 100%;
+}
+.stats img
+{
+  width: 100%;
+}
+.calendar
+{
+  width : 100%;
+}
+
 /* Making Responsive */
 @media (max-width: 991px) {
   header {
@@ -492,4 +508,40 @@ form textarea {
   .contact-button{
     margin-left: 25%;
   }
+}
+@media all and (min-width:451px) and (max-width:750px){
+  .stats
+  {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: 100%;
+
+  }
+  .stats img
+  {
+    width : 100%;
+  }
+  .calendar
+{
+  width : 100%;
+}
+  
+}
+@media all and (min-width:150px) and (max-width:450px){
+  .stats
+  {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: 100%;
+
+  }
+  .stats img
+  {
+    width : 100%;
+  }
+  .calendar
+{
+  width : 100%;
+}
+ 
 }

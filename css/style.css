@@ -556,7 +556,7 @@ form textarea {
   /* border: 1px solid gold; */
   display: flex;
   /* grid-template-columns: repeat(4, 100px); */
-  gap: 50px;
+  gap: 50.5px;
   width: 60%;
   margin: auto;
   flex-wrap: wrap;
